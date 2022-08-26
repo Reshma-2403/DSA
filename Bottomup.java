@@ -23,6 +23,6 @@ public class Main {
             a[i]=sc.nextInt();
         }
         int total=sc.nextInt();
-        System.out.println(Bottomup(a,total));
+        System.out.println("Minimum coins: "+Bottomup(a,total));
     }
 }
